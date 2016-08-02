@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "arista";
+    src: url("../font/arista.otf");
+}
+
+==========================================================================
+   Author's custom styles ---> START YOUR STYLING BELOW 
+========================================================================== 
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    -webkit-transition: background 1s;
+            transition: background 1s;
+}
+
+.logo img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left:auto;
+    margin-right: auto;
+}
+h3 {
+    font-family: "arista";
+    font-size: 50px;
+    color: #00aced;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.instructions  {
+    border: 1px solid #F0F0F0;
+    border-radius: 15px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+p {
+
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center; 
+    max-width: 300px;
+    display:block;
+    margin: 0 auto;
+
+}
+
+.bg-strip{
+    width:100%;
+    margin-top: 8%;
+    text-align: center;
+    background-color: #1dcaff;
+}
+
+form{
+       padding: 10em 0;
+    text-align: center;
+
+};
+
+.search { 
+    
+   /* font-family: "Helvetica";
+    font-size:20px;*/
+
+}
+.rounded { 
+    border-radius:300px; 
+    margin:5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 200px;
+    font-family: "Helvetica Neue";
+    font-size:15px;
+   
+}
+button {
+    background: transparent;
+    border: none;
+
+}
+button img{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.tweet{ /*margin: 50px;
+    margin-top: 50px;*/
+    list-style-type: none;
+    overflow: hidden;
+    margin-bottom: 25px;
+    border-bottom: 1px solid gray;
+}
+
+.tweets {
+    /*display: none;*/
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+
+.img {
+    display: inline-block;
+    width: 100px;
+    float: left;
+    text-align: left;
+}
+
+.twinfo {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+    float: right;
+}
+
+.name {
+    color:black;
+    font-weight: 600;
+    font-family: "Helvetica Neue";
+    float: left;
+    margin-right: 10px;
+
+}
+
+.handle {
+    color: gray;
+    font-family: "Helvetica Neue";
+
+
+   /* margin-left: 10px;*/
+}
+
+
+.twtext {
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    font-weight: 200;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
